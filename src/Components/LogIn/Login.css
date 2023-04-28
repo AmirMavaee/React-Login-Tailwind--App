@@ -1,0 +1,33 @@
+.login-container{
+    border: 1px solid #b1b1b1;
+}
+
+form p{
+    height: 2rem;
+}
+
+input.w-full{
+    outline: none;
+    border: 1px solid #e0e0e0;
+    height: 2rem;
+    padding: .2rem;
+    border-radius: .3rem;
+}
+
+form > div > span{
+    height: 20px;
+    width: fit-content;
+    font-size: .8rem;
+    padding: 0 5px;
+    margin-top: 5px;
+}
+
+.errorText{
+    background-color: rgba(255, 0, 0, 0.175);
+    color: red;
+}
+
+.border-style{
+    border-color: rgba(255, 0, 0,.3) !important;
+    border-top-color: rgba(0, 0, 255,.1) !important;
+}
